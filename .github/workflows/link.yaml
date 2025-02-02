@@ -1,7 +1,7 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  link:
     runs-on: ubuntu-latest
     steps:
       - uses: nobe4/action-ln@3a3f8485f3045041c382c864371857346b13f553

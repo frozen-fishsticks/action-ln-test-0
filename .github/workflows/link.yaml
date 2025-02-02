@@ -3,8 +3,5 @@ on: [push]
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
     steps:
-      - name: Hello world action step
-        id: hello
-        uses: nobe4/action-ln@c504f94effd1af474759c24257d4917b53924aaf
+      - uses: nobe4/action-ln@3a3f8485f3045041c382c864371857346b13f553

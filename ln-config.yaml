@@ -1,2 +1,12 @@
-this: is fine
-from: somewhere
+link:
+  - from:
+      path: path/to/file
+    to:
+      path: path/to/other/file
+
+  - from:
+      repo: org/repo
+      path: path/to/file
+    to:
+      repo: org/repo
+      path: path/to/other/file

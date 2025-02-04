@@ -15,7 +15,7 @@ links:
   # import
   - from:
       path: README.md
-      repo: frozen-fishsticks/action-ln-test-2
+      repo: frozen-fishsticks/action-ln-test-0
     to:
       path: README.md
 

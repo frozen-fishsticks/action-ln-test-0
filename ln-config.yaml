@@ -1,5 +1,28 @@
 links:
+  # local
   - from:
       path: README.md
     to:
-      path: ln-config.yaml
+      path: README2.md
+
+  # export
+  - from:
+      path: README.md
+    to:
+      path: README.md
+      repo: frozen-fishsticks/action-ln-test-1
+
+  # import
+  - from:
+      path: README.md
+      repo: frozen-fishsticks/action-ln-test-2
+    to:
+      path: README.md
+
+  # transfer
+  - from:
+      path: README.md
+      repo: frozen-fishsticks/action-ln-test-1
+    to:
+      path: README.md
+      repo: frozen-fishsticks/action-ln-test-2

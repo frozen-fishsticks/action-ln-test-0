@@ -1,12 +1,5 @@
 links:
   - from:
-      path: path/to/file
+      path: README.md
     to:
-      path: path/to/other/file
-
-  - from:
-      repo: org/repo
-      path: path/to/file
-    to:
-      repo: org/repo
-      path: path/to/other/file
+      path: ln-config.yaml

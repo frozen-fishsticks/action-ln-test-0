@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: nobe4/action-ln@main
+      - uses: nobe4/action-ln@create-pull

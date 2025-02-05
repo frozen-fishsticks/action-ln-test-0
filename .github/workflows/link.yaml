@@ -1,7 +1,10 @@
 on: 
   - push
   - workflow_dispatch
-
+  
+permissions:
+  contents: write
+  
 jobs:
   link:
     runs-on: ubuntu-latest

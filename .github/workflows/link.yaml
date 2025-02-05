@@ -12,3 +12,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: nobe4/action-ln@create-pull
+        with:
+          GITHUB_TOKEN: ${{ secrets.ACTION_LN_TOKEN }}

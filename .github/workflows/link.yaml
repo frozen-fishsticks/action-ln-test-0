@@ -11,7 +11,6 @@ jobs:
   link:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: nobe4/action-ln@create-pull
+      - uses: nobe4/action-ln@config-from-api
         with:
           token: ${{ secrets.ACTION_LN_TOKEN }}

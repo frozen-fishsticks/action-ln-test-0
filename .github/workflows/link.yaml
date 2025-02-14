@@ -10,12 +10,7 @@ permissions:
 jobs:
   link:
     runs-on: ubuntu-latest
-    steps:
-      - run: |
-          echo "[`${{ github.repository }}:${{ github.workflow }}`](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})"
-          echo "[`${{ github.workflow_ref }}`](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})"
-
-          
-      #- uses: nobe4/action-ln@v0.0.0
-      #  with:
-      #    token: ${{ secrets.ACTION_LN_TOKEN }}
+    steps:    
+      - uses: nobe4/action-ln@context-run
+        with:
+          token: ${{ secrets.ACTION_LN_TOKEN }}

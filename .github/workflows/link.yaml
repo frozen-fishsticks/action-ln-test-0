@@ -13,5 +13,5 @@ jobs:
     steps:    
       - uses: nobe4/action-ln@group
         with:
-          noop: true
+          noop: false
           token: ${{ secrets.ACTION_LN_TOKEN }}

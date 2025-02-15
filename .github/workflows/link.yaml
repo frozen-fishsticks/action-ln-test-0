@@ -11,6 +11,6 @@ jobs:
   link:
     runs-on: ubuntu-latest
     steps:    
-      - uses: nobe4/action-ln@no-dist
+      - uses: nobe4/action-ln@b82982a35463fa57a3f0873e87c0c1ff18370df0
         with:
           token: ${{ secrets.ACTION_LN_TOKEN }}

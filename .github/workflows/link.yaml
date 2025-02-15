@@ -11,7 +11,7 @@ jobs:
   link:
     runs-on: ubuntu-latest
     steps:    
-      - uses: nobe4/action-ln@noop
+      - uses: nobe4/action-ln@group
         with:
           noop: true
           token: ${{ secrets.ACTION_LN_TOKEN }}

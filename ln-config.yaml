@@ -22,7 +22,7 @@ links:
       path: README.md
       repo: frozen-fishsticks/action-ln-test-1
     to:
-      path: README.md
+      path: README3.md
 
   # transfer
   - from:

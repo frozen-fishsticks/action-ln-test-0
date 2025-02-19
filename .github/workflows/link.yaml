@@ -11,7 +11,7 @@ jobs:
   link:
     runs-on: ubuntu-latest
     steps:    
-      - uses: nobe4/action-ln@compare-file
+      - uses: nobe4/action-ln@local
         with:
           noop: false
           token: ${{ secrets.ACTION_LN_TOKEN }}

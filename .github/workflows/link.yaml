@@ -11,7 +11,7 @@ jobs:
   link:
     runs-on: ubuntu-latest
     steps:    
-      - uses: nobe4/action-ln@local
+      - uses: nobe4/action-ln@edge
         with:
-          noop: false
+          noop: true
           token: ${{ secrets.ACTION_LN_TOKEN }}

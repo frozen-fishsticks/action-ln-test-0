@@ -14,4 +14,5 @@ jobs:
       - uses: nobe4/action-ln@edge
         with:
           noop: true
+          config: ln-config.yaml
           token: ${{ secrets.ACTION_LN_TOKEN }}

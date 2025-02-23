@@ -11,8 +11,6 @@ jobs:
   link:
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          echo '${{ secrets.ACTION_LN_APP_INSTALL_ID }}' | md5sum
       - uses: nobe4/action-ln@edge
         with:
           noop: false

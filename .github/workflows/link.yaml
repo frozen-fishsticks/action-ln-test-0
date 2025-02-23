@@ -15,7 +15,6 @@ jobs:
         with:
           noop: false
           config-path: ln-config.yaml
-          #token: ${{ secrets.ACTION_LN_TOKEN }}
           app-id: ${{ secrets.ACTION_LN_APP_ID }}
           app-private-key: ${{ secrets.ACTION_LN_APP_PRIVATE_KEY }}
           app-install-id: ${{ secrets.ACTION_LN_APP_INSTALL_ID }}

@@ -11,7 +11,7 @@ jobs:
   link:
     runs-on: ubuntu-latest
     steps:
-      - uses: nobe4/action-ln@edge
+      - uses: nobe4/action-ln@app-auth
         with:
           noop: false
           config-path: ln-config.yaml

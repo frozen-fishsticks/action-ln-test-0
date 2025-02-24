@@ -11,9 +11,9 @@ jobs:
   link:
     runs-on: ubuntu-latest
     steps:
-      - uses: nobe4/action-ln@app-auth
+      - uses: nobe4/action-ln@v0
         with:
-          noop: false
+          noop: true
           config-path: ln-config.yaml
           app-id: ${{ secrets.ACTION_LN_APP_ID }}
           app-private-key: ${{ secrets.ACTION_LN_APP_PRIVATE_KEY }}

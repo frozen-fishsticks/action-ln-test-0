@@ -11,7 +11,7 @@ jobs:
   link:
     runs-on: ubuntu-latest
     steps:
-      - uses: nobe4/action-ln@auth
+      - uses: nobe4/action-ln@file
         with:
           noop: true
           config: ln-config.yaml

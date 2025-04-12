@@ -11,7 +11,7 @@ jobs:
   link:
     runs-on: ubuntu-latest
     steps:
-      - uses: nobe4/action-ln@env-runid
+      - uses: nobe4/action-ln@config-source
         with:
           noop: true
           config: ln-config.yaml

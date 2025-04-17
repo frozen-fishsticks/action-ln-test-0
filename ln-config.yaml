@@ -1,30 +1,30 @@
 links:
   # local
-  - from:
-      path: README.md
-    to:
-      path: README2.md
+  # - from:
+  #     path: README.md
+  #   to:
+  #     path: README2.md
   # MOOT
   - from:
       path: README.md
     to:
       path: README.md
   # export
-  - from:
-      path: README.md
-    to:
-      path: README.md
-      repo: frozen-fishsticks/action-ln-test-1
-  # import
-  - from:
-      path: README.md
-      repo: frozen-fishsticks/action-ln-test-1
-    to:
-      path: README3.md
-  # transfer
-  - from:
-      path: README.md
-      repo: frozen-fishsticks/action-ln-test-1
-    to:
-      path: README.md
-      repo: frozen-fishsticks/action-ln-test-2
+  # - from:
+  #     path: README.md
+  #   to:
+  #     path: README.md
+  #     repo: frozen-fishsticks/action-ln-test-1
+  # # import
+  # - from:
+  #     path: README.md
+  #     repo: frozen-fishsticks/action-ln-test-1
+  #   to:
+  #     path: README3.md
+  # # transfer
+  # - from:
+  #     path: README.md
+  #     repo: frozen-fishsticks/action-ln-test-1
+  #   to:
+  #     path: README.md
+  #     repo: frozen-fishsticks/action-ln-test-2

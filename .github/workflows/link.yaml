@@ -11,7 +11,7 @@ jobs:
   link:
     runs-on: ubuntu-latest
     steps:
-      - uses: nobe4/action-ln@delete-empty-branch
+      - uses: nobe4/action-ln@fix-logger
         with:
           noop: true
           config: ln-config.yaml

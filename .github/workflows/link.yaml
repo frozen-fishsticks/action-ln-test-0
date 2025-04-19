@@ -11,7 +11,7 @@ jobs:
   link:
     runs-on: ubuntu-latest
     steps:
-      - uses: nobe4/action-ln@log
+      - uses: nobe4/action-ln@format
         with:
           noop: true
           config: ln-config.yaml

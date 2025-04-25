@@ -11,9 +11,9 @@ jobs:
   link:
     runs-on: ubuntu-latest
     steps:
-      - uses: nobe4/action-ln@noop
+      - uses: nobe4/action-ln@go-release
         with:
-          noop: true
+          noop: false
           config: ln-config.yaml
           app_id: ${{ secrets.ACTION_LN_APP_ID }}
           app_private_key: ${{ secrets.ACTION_LN_APP_PRIVATE_KEY }}

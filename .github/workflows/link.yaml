@@ -11,7 +11,7 @@ jobs:
   link:
     runs-on: ubuntu-latest
     steps:
-      - uses: nobe4/action-ln@go-release
+      - uses: nobe4/action-ln@better-defaults
         with:
           noop: false
           config: ln-config.yaml

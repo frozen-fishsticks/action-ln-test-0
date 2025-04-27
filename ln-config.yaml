@@ -28,4 +28,4 @@ links:
   - from:
       path: README.md
       repo: frozen-fishsticks/action-ln-test-1
-    to: frozen-fishsticks/action-ln-test-2:
+    to: "frozen-fishsticks/action-ln-test-2:"

@@ -11,7 +11,7 @@ jobs:
   link:
     runs-on: ubuntu-latest
     steps:
-      - uses: nobe4/action-ln@better-defaults
+      - uses: nobe4/action-ln@process-link
         with:
           noop: false
           config: ln-config.yaml

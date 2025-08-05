@@ -11,7 +11,7 @@ jobs:
   link:
     runs-on: ubuntu-latest
     steps:
-      - uses: nobe4/action-ln@process-link
+      - uses: nobe4/action-ln@bump-version
         with:
           noop: false
           config: ln-config.yaml
